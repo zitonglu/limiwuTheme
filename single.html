@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>文章单页</title>
+	<link rel='stylesheet' href='http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='style.css'>
+</head>
+<body id="top">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="http://www.paipk.com/zb_users/theme/paipk1/include/logo.png" class="logo">
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">测试字体</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="hidden-xs top"><a href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a></div>
+<div class="container single">
+  <div class="col-md-9 titlebox">
+    <p class="title">文章的标题，默认对齐方式字号稍微大点</p>
+    <ul class="list-inline meta">
+      <li><i class="glyphicon glyphicon-time"></i>&nbsp;2016-10-14</li>
+      <li><i class="glyphicon glyphicon-folder-open"></i>&nbsp;&nbsp;<a href="">文章分类1</a>,<a href="">文章分类2</a></li>
+      <li><i class="glyphicon glyphicon-tags"></i>&nbsp;&nbsp;<a href="">标签1</a>,<a href="">标签2</a>,<a href="">标签3</a></li>
+      <li class="hidden-xs"><i class="glyphicon glyphicon-qrcode"></i>&nbsp;<a href="#" class="btn" role="button" data-toggle="modal" data-target="#myshare">网页二维码</a></li>
+      <li><i class="glyphicon glyphicon-eye-open"></i>&nbsp;<a href="">351</a></li>
+      <li><i class="glyphicon glyphicon-comment"></i>&nbsp;<a href="">5</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 visible-lg visible-md erweima">
+    <img src="http://api.qrserver.com/v1/create-qr-code/?size=64x64&amp;data=http://www/paipk.com" alt="二维码">
+    <p>打开微信，点击底部的“发现”，使用“扫一扫”即可将网页分享至朋友圈</p>
+  </div>
+	<div class="col-md-offset-2 col-md-8 article">
+  <p>一个好的网页模板，往往在排版上非常讲究。因为浏览者第一眼看的就是文章，喜欢你的风格才能常常浏览你的网站。我是<u>紫铜炉</u>，我的个人博客是<a href="http://www.paipk.com" target="_blank">拍拍看科技</a>。可以自豪的告诉你，我是名<b>网页设计师</b>，精通<code>HTML+CSS</code>，最喜欢使用的还是z-blogPHP。</p>
+    <h1>H1标签下的文字样式</h1>
+    <h2>H2标签下的文字样式</h2>
+    <h3>H3标签下的文字样式</h3>
+    <h4>H4标签下的文字样式</h4>
+    <h5>H5标签下的文字样式</h5>
+    <h6>H6标签下的文字样式</h6>
+    <h3>引用文字的样式</h3>
+    <p>一行引用的文字。</p>
+    <blockquote><p>单行引用文字样式</p></blockquote>
+    <p>多行引用文字样式</p>
+    <blockquote>
+      <p>众所周知，如果不给元素指定一个具体的height，它就会自动适应其内容的高度。假如我们希望width也具有类似的行为，该怎么做呢？从这个案例中，我们来找寻答案吧。</p>
+      <cite>——紫铜炉</cite>
+    </blockquote>
+    <h3>表格样式</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>給料</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><a href="">山田太郎</a></th>
+        <td>1ドル</td>
+        <td>スティーブ・ジョブズが必要なサラリーと同じ額。</td>
+      </tr>
+      <tr>
+        <th><a href="http://example.org/">田中花子</a></th>
+        <td>1,000万円</td>
+        <td>ブログを書くために必要になる資金。</td>
+      </tr>
+      <tr>
+        <th><a href="http://example.org/">山本次郎</a></th>
+        <td>1億円</td>
+        <td>百聞は一見にしかず、ということで、カメラマンはブロガーの100倍。</td>
+      </tr>
+      <tr>
+        <th><a href="http://example.org/">中山愛子</a></th>
+        <td>10億円</td>
+        <td>特に理由は要りません。</td>
+      </tr>
+    </tbody>
+  </table>
+  <h4>排序的样式</h4>
+  <ul>
+    <li>排序</li>
+    <li>排序</li>
+    <li>排序
+      <ol>
+        <li>排序</li>
+        <li>排序
+        <ul>
+          <li>排序</li>
+          <li>排序</li>
+          <li>排序</li>
+        </ul>
+        <li>排序</li>
+        </li>
+      </ol>
+    </li>
+    <li>排序</li>
+  </ul>
+  <h5>HTML里面的一些要素</h5>
+  <p>首先展示的是<a href="#">链接按钮</a>。默认颜色绿色，<code>:hover</code>变浅绿色。<b>加深文字</b>的方法有两种：<code>&lt;b&gt;、&lt;strong&gt;</code>。个人比较喜欢前者。代码用&lt;code&gt;进行包裹就可以了，包裹样式见上图。</p>
+  <p>平常的文字不带<u>下划线</u>。但如果你需要可以用<code>&lt;u&gt;</code>来包裹下。<code>&lt;del&gt;</code>可以显示<del>文字删除</del>的效果，如果你想让<small>文字变小</small>。那么可以尝试用<code>&lt;small&gt;</code>来实现它。还有一个为<kbd>移动用户</kbd>准备的：<code>&lt;kbd&gt;</code>。它是标签标记用户通过键盘输入的内容。</p>
+  <h6>插入代码&lt;pre&gt;样式</h6>
+  <pre>.overlay{/* 用于遮挡背景 */
+    position:fixed;
+    top:0;right:0;bottom:0;left:0;
+    background:rgba(0,0,0,.8);
+}
+.lightbox{/* 需要吸引用户注意的元素 */
+    position:absolute;
+    z-index:1;
+    text-shadow:1px 1px black,-1px -1px black,1px -1px black,-1px 1px black,1px 1px black,-1px -1px black,1px -1px black,-1px 1px black;
+}</pre>
+<h2>图像展示功能</h2>
+  <p>图像采用自适应的图片，大部分根据图的实际效果来做，有的部分采用CMS系统或bootstarp自带的效果来做，整体代码分别放置在多个style里面。</p>
+  <img src="http://images.paipk.com/20162016/08/201608044534_100.jpg" alt="测试图片">
+  <p>如果图片不在段落里面，那么图与下文的空间有限，如果与段落控制一样的间隔，需要图片外框再加一个<code>&lt;p&gt;</code>。如果你想在图片上做点效果，可以增加如下样式：</p>
+  <pre>
+&lt;img src=&quot;...&quot; alt=&quot;...&quot; class=&quot;img-rounded&quot;&gt;
+&lt;img src=&quot;...&quot; alt=&quot;...&quot; class=&quot;img-circle&quot;&gt;
+&lt;img src=&quot;...&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot;&gt;</pre>
+  <ul class="list-inline">
+  <li style="width:30%"><a href="http://www.paipk.com/wiki/geziwiki.html"><img src="http://www.paipk.com/zb_users/theme/paipk1/screenshot.png" alt=".." class="img-rounded"></a></li>
+  <li style="width:30%"><a href="http://www.paipk.com/275.html"><img src="http://www.paipk.com/zb_users/theme/HomeD1/screenshot.png" alt=".." class="img-circle"></a></li>
+  <li style="width:30%"><a href="http://www.paipk.com/208.html"><img src="http://www.paipk.com/zb_users/theme/BAndW/screenshot.png" alt=".." class="img-thumbnail" style="display: block;"></a></li>
+  </ul>
+  <h5>特殊符号情况</h5>
+<table class="text-center">
+  <tbody>
+    <tr>
+      <td>!</td>
+      <td>“</td>
+      <td>#</td>
+      <td>$</td>
+      <td>%</td>
+      <td>&amp;</td>
+      <td>‘</td>
+      <td>(</td>
+      <td>)</td>
+      <td>*</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>,</td>
+      <td>–</td>
+      <td>.</td>
+      <td>/</td>
+      <td>0</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>:</td>
+      <td>;</td>
+      <td>&gt;</td>
+      <td>=</td>
+      <td>&lt;</td>
+    </tr>
+    <tr>
+      <td>?</td>
+      <td>@</td>
+      <td>A</td>
+      <td>B</td>
+      <td>C</td>
+      <td>D</td>
+      <td>E</td>
+      <td>F</td>
+      <td>G</td>
+      <td>H</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>J</td>
+      <td>K</td>
+      <td>L</td>
+      <td>M</td>
+      <td>N</td>
+      <td>O</td>
+      <td>P</td>
+      <td>Q</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td>S</td>
+      <td>T</td>
+      <td>U</td>
+      <td>V</td>
+      <td>W</td>
+      <td>X</td>
+      <td>Y</td>
+      <td>Z</td>
+      <td>[</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>]</td>
+      <td>^</td>
+      <td>_</td>
+      <td>`</td>
+      <td>a</td>
+      <td>b</td>
+      <td>c</td>
+      <td>d</td>
+      <td>e</td>
+      <td>f</td>
+    </tr>
+    <tr>
+      <td>g</td>
+      <td>h</td>
+      <td>i</td>
+      <td>j</td>
+      <td>k</td>
+      <td>l</td>
+      <td>m</td>
+      <td>n</td>
+      <td>o</td>
+      <td>p</td>
+    </tr>
+    <tr>
+      <td>q</td>
+      <td>r</td>
+      <td>s</td>
+      <td>t</td>
+      <td>u</td>
+      <td>v</td>
+      <td>w</td>
+      <td>x</td>
+      <td>y</td>
+      <td>z</td>
+    </tr>
+    <tr>
+      <td>{</td>
+      <td>|</td>
+      <td>}</td>
+      <td>~</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="clearfix"></div>
+<!-- single end -->
+  <div class="container buttonbox">
+    <a href="#" class="btn btn-yellowgreen btn-lg" role="button"><i class="glyphicon glyphicon-chevron-left"></i>&nbsp;上一篇</a>
+    <a class="btn btn-purple hidden-xs btn-lg" href="#" role="button" data-toggle="modal" data-target="#myshang"><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;打赏</a>
+    <a class="btn btn-blue hidden-xs btn-lg" href="#" role="button" data-toggle="modal" data-target="#myshare"><i class="glyphicon glyphicon-qrcode"></i>&nbsp;分享</a>
+    <a href="#" class="btn btn-orange btn-lg" role="button">下一篇&nbsp;<i class="glyphicon glyphicon-chevron-right"></i></a>
+  </div>
+  <div class="container RelatedArticlesbox">
+    <ul class="list-inline">
+      <li class="col-md-3 col-sm-6 col-xs-12"><a href="" title=".."><img src="http://media.galaxant.com/000/481/021/340x252-1475950470.png" alt="..">
+      <p>的空间有限，如果与段落控制</p></a></li>
+      <li class="col-md-3 col-sm-6 col-xs-12"><a href="" title=".."><img src="http://img.zcool.cn/community/031814957ea526a00000131e53332eb.jpg" alt="..">
+      <p>咪唔-享受分享的</p></a></li>
+      <li class="col-md-3 col-sm-6 col-xs-12"><a href="" title="苏ICP备09094874号苏ICP备09094874号09094874号"><img src="http://images.paipk.com/20162016/10/201610118318_474.jpg" alt=".."><p>苏ICP备09094874号苏ICP备09094874号09094874号</p></a></li>
+      <li class="col-md-3 col-sm-6 col-xs-12"><a href="" title=".."><img src="http://media.galaxant.com/000/481/059/690x252-1475965391.png" alt=".."><p>Powered By Paipk.com</p></a></li>
+    </ul>
+  </div>
+  <div class="container Commentbox">
+    <h3><i class="glyphicon glyphicon-comment"></i>&nbsp;评论留言</h3>
+    <ul class="media-list">
+      <li class="media">
+        <a class="media-left" href="#">
+          <img src="http://img.zcool.cn/community/04b4ef57479c4b0000012d2051d211.jpg" alt="...">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Media heading</h4>
+          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.</p>
+        </div>
+      </li>
+      <li class="media">
+        <a class="media-left" href="#">
+          <img src="http://images.paipk.com/2015/01/2015/06/201506054034_200.jpg" alt="...">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Media heading</h4>
+          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. </p>
+          <ul class="media-list">
+            <li class="media">
+              <a class="media-left" href="#">
+                <img src="http://img.zcool.cn/community/041ae45717afac00000188ca7aa9b0.jpg" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. 
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+	<p class="container">Copyright&nbsp;©&nbsp;<a href="">哩咪唔-享受分享的快乐</a>&nbsp;&nbsp;苏ICP备09094874号-2&nbsp;<span><a href="#">站长统计</a></span><b>Powered By <a href="">Wordpress</a>.Theme by <a href="http://www.paipk.com" target="_blank">Paipk.com</a></b></p>
+</div>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<!-- 分享对话框 -->
+<div class="modal fade" id="myshare" tabindex="-1" role="dialog" aria-labelledby="myshare">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="mythinks">享受分享的乐趣</h4>
+            </div>
+            <div class="modal-body">
+                <img src="http://api.qrserver.com/v1/create-qr-code/?size=256x256&amp;data=http://www/paipk.com" class="img-responsive center-block" alt="文章网址的二维码">
+                <p class="text-center weixin-share-p">打开微信，点击底部的“发现”，<br>使用“扫一扫”即可将网页分享至朋友圈</p>
+                <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到QQ好友" href="#" class="bds_sqq" data-cmd="sqq"></a><a title="分享到复制网址" href="#" class="bds_copy" data-cmd="copy"></a><a title="分享到打印" href="#" class="bds_print" data-cmd="print"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-blue" data-dismiss="modal">关闭窗口</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 打赏弹出对话框 -->
+<div class="modal fade" id="myshang" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">谢谢您的打赏</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/shang.jpg" class="img-responsive center-block" alt="打赏图片">
+        <p class="text-center weixin-share-p">打开微信，点击底部的“发现”，<br>使用“扫一扫”即可将请我喝可乐</p>
+        <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到QQ好友" href="#" class="bds_sqq" data-cmd="sqq"></a><a title="分享到复制网址" href="#" class="bds_copy" data-cmd="copy"></a><a title="分享到打印" href="#" class="bds_print" data-cmd="print"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-purple" data-dismiss="modal">关闭窗口</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
